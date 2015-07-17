@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "uglify-js": "^2.4.23",
+    "he": "^0.5.0"
+  },
+  "scripts": {
+    "build": " > download-video.min.js",
+    "bookmarklet": "uglifyjs --compress --mangle -- download-video.js | he --encode | pbcopy"
+  }
+}
